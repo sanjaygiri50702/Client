@@ -89,7 +89,7 @@ class CreateEvent extends React.Component {
                     <input type="text" className="form-control" id="inputeventTitle" value={this.state.title} onChange={this.handleTitleChange}/>
                 </div>
                 <div className="form-group">
-                    <label for="description">Description</label>
+                    <label htmlFor="description">Description</label>
                     <textarea className="form-control" id="description" rows="4" value={this.state.description} onChange={this.handleDescriptionChange} ></textarea>
                 </div>
                 <div className="form-group">
